@@ -7,7 +7,7 @@ const ProjectSchema = new mongoose.Schema({
     },
     project_slug: { 
         type: String, 
-        required: true,
+        required: true, 
         unique: true 
     },
 
