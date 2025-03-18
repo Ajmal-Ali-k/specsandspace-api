@@ -3,10 +3,6 @@ name: Server
 on:
   push:
     branches: ["main"]
-
-defaults:
-  run:
-    working-directory: ./server
 jobs:
   build:
     runs-on: ubuntu-latest
